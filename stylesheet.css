@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+#gameSpace {
+    position:relative;
+    height: auto;
+    width:auto;
+    max-width:50em;
+    max-height:100%;
+    margin:auto;
+}
+
+#board {
+    display:block;
+    margin: auto;
+    height: auto;
+    width: auto;
+    max-width:100%;
+    max-height:100%;
+    z-index:10;
+}
+
+#pieces {
+    position:absolute;
+    top:0;
+    height:100%;
+    width:100%;
+    z-index:20;
+}
+
+#spot1 {
+    display:inline-block;
+    top:50;
+    left:50;
+    height:25%;
+    width:25%;
+    margin-left:7%;
+    margin-top:7%;
+}
+
+#spot1 > img {
+    height:100%;
+    width:100%;
+}
+
+#spot2 {
+    display:inline-block;
+    top:0;
+    left:50;
+    height:25%;
+    width:25%;
+    margin-left:5%;
+    margin-top:7%;
+}
+
+#spot2 > img {
+    height:100%;
+    width:100%;
+}
+
+#spot3 {
+    display:inline-block;
+    top:0;
+    left:50;
+    height:25%;
+    width:25%;
+    margin-left:5%;
+    margin-top:7%;
+}
+
+#spot3 > img {
+    height:100%;
+    width:100%;
+}
+
+#spot4 {
+    display:inline-block;
+    top:0;
+    left:50;
+    height:25%;
+    width:25%;
+    margin-left:7%;
+    margin-top:5%;
+}
+
+#spot4 > img {
+    height:100%;
+    width:100%;
+}
+
+#spot5 {
+    display:inline-block;
+    top:0;
+    left:50;
+    height:25%;
+    width:25%;
+    margin-left:5%;
+    margin-top:5%;
+}
+
+#spot5 > img {
+    height:100%;
+    width:100%;
+}
+
+#spot6 {
+    display:inline-block;
+    top:0;
+    left:50;
+    height:25%;
+    width:25%;
+    margin-left:5%;
+    margin-top:5%;
+}
+
+#spot6 > img {
+    height:100%;
+    width:100%;
+}
+
+#spot7 {
+    display:inline-block;
+    top:0;
+    left:50;
+    height:25%;
+    width:25%;
+    margin-left:7%;
+    margin-top:5%;
+}
+
+#spot7 > img {
+    height:100%;
+    width:100%;
+}
+
+#spot8 {
+    display:inline-block;
+    top:0;
+    left:50;
+    height:25%;
+    width:25%;
+    margin-left:5%;
+    margin-top:0%;
+}
+
+#spot8 > img {
+    height:100%;
+    width:100%;
+}
+
+#spot9 {
+    display:inline-block;
+    top:0;
+    left:50;
+    height:25%;
+    width:25%;
+    margin-left:5%;
+    margin-top:5%;
+}
+
+#spot9 > img {
+    height:100%;
+    width:100%;
+}
